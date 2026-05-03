@@ -16,8 +16,8 @@ from langchain_huggingface import HuggingFaceEmbeddings
 load_dotenv()
  
 # Hugging Face token
-HUGGINGFACEHUB_API_TOKEN = st.secrets["HF_TOKEN"]
-st.secrets["HF_TOKEN"]
+#HUGGINGFACEHUB_API_TOKEN = st.secrets["HF_TOKEN"]
+#st.secrets["HF_TOKEN"]
  
 # Streamlit UI
 st.title("Conversational RAG with PDF Uploads")
